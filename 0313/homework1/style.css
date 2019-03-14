@@ -1,0 +1,45 @@
+* {
+  box-sizing:border-box;
+}
+
+header {
+  background-color:	#aaaaff;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 20%;
+  height: 400px; 
+  background:#EED2EE;
+  padding: 20px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: #f1f1f1;
+  height: 400px;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (max-width:1000px) {
+  nav, main, article,footer {
+    width:100%; 
+  }
